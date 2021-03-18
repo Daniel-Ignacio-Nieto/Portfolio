@@ -1,0 +1,120 @@
+.nav-menu {
+    background-color: teal;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 60%);
+    top: 0;
+    position: fixed;
+}
+
+.nav-menu-items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-menu-items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.nav-menu-items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-menu-items li:hover, li:active {
+    background-color: rgb(0, 0, 0, 0.3);
+    transition: 0.4s;
+}
+
+.nav-barrita {
+    margin-left: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-barrita-img {
+    background-color: rgb(230, 230, 230, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nav-menu ul.show {
+    top: 47px;
+    left: 0;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .nav-menu-items li a {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .nav-menu {
+        height: 65px;
+        justify-content: left;
+    }
+
+    .nav-barrita {
+        display: inline-flex;
+    }
+
+    .nav-menu-items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: #414141;
+        top: 50px;
+        left: -150vh;
+        text-align: center;
+        transition: all .5s;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-menu-items li {
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+
+    .nav-menu-items li:hover {
+        background: none;
+    }
+
+    .nav-menu-items li a {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nav-menu-items li a:hover{
+        color:teal;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+    /* .nav-menu-items li {
+        margin: 5px 0 0 0;
+    } */
+
+    .nav-menu-items {
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+}

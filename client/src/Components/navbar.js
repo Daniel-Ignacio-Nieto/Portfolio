@@ -1,33 +1,29 @@
 import React from "react";
-
+import Barrita from "../Assets/Iconos/barritas.png"
+import "./navbar.css";
 
 
 
 const NavBar = () => {
 
+    function showmenu() {
+        document.getElementById("otroModo").classList.toggle("show");
+    }
+
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-            </div>
+        <nav className="nav-menu">
+            <span className="nav-barrita" onClick={() => showmenu()}>
+                <img src={Barrita} alt="Menu" className="nav-barrita-img" width="35" height="35" />
+            </span>
+            <ul className="nav-menu-items" id="otroModo">
+                <li className="item-active"><a href="/">Home</a></li>
+                <li><a href="/AboutMe">Sobre Mi</a></li>
+                <li><a href="/Skills">Habilidades</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Footer">Contacto</a></li>
+                <li><a href="#">NOSE</a></li>
+            </ul>
         </nav>
     );
 };

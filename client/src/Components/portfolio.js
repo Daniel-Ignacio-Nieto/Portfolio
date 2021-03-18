@@ -1,4 +1,6 @@
 import React from "react";
+import EP from "../Assets/Imagenes/EcommersePortada.jpg";
+import HM from "../Assets/Imagenes/HenryAppPortada.jpg";
 
 
 
@@ -12,7 +14,7 @@ const Portfolio = () => {
                 <p class="">Aquí te muestro algunos de los proyectos en los cuales trabajé</p>
             </div>
             <div class="">
-                <img src="" alt="Foto del Proyecto" class="" />
+                <img src={EP} alt="Foto del Proyecto" class="" />
                 <h2 class="">Patagonia Ecommerse</h2>
                 <p class="">E-commerce de venta de cervezas Patagonia, en el cual trabajamos 6 personas en conjunto aplicando metodoligas Agiles SCRUM</p>
                 <ul>
@@ -29,7 +31,7 @@ const Portfolio = () => {
                 </ul>
             </div>
             <div class="">
-                <img src="" alt="Foto del Proyecto" class="" />
+                <img src={HM} alt="Foto del Proyecto" class="" />
                 <h2 class="">Henry Manager</h2>
                 <p class="">Una Plataforma Web, que facilita la administracion y las estadisticas de desempeño de los estudiantes a lo largo del curso en Henry. </p>
                 <ul>

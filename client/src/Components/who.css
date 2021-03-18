@@ -1,0 +1,37 @@
+.who-container {
+    display: flex;
+    margin-top: 100px;
+    padding: 70px 50px 150px 30px;
+}
+
+.who-intro {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.who-intro h1 {
+    font-size: 33px;
+}
+
+.who-intro a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: darkgreen;
+    border-radius: 4px;
+}
+
+.who-intro a:hover {
+    box-shadow: 0px 0px 6px lightgreen;
+}
+
+.who-img img {
+    width: 330px;
+    height: 400px;
+    box-shadow: 0px 0px 10px lightgreen;
+    border-radius: 5px;
+}

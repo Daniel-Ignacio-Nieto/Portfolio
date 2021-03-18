@@ -32,7 +32,7 @@ const Contact = () => {
     };
 
     return (
-        <>
+        <section id="Contact">
             <button onClick={() => setClose((val) => !val)}>Hablemos</button>
             <Modal title="Contacto" show={close} onClose={() => setClose((val) => !val)}>
                 <h3 class=""></h3>
@@ -68,7 +68,7 @@ const Contact = () => {
                 </form>
             </Modal>
 
-        </>
+        </section>
     );
 
 

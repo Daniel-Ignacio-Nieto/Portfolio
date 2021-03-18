@@ -6,13 +6,13 @@ const Footer = () => {
 
 
     return (
-        <>
+        <section id="Footer">
             <div class="">
                 <img src={GitHub} alt="GitHub" class="" width="100" height="100" />
                 <img src={LinkedIn} alt="LinkedIn" class="" width="100" height="100" />
                 <a href="" class="">nieto.ignacio65@gmail.com</a>
             </div>
-        </>
+        </section>
     );
 };
 
