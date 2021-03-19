@@ -1,0 +1,96 @@
+.Port-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.Port-Intro {
+    display: block;
+    text-align: center;
+}
+
+.Port-Intro h1 {
+    font-size: 50px;
+}
+
+.Port-Intro p {
+    font-size: 25px;
+}
+
+.Port-Proyect {
+    display: flex;
+    background-color: rgb(0, 35, 0, 1);
+    margin: 75px 60px 100px 60px;
+    height: 550px;
+    padding: 25px;
+    border-radius: 40px;
+    border: 1px solid lightgreen;
+    box-shadow: 0px 0px 17px lightgreen;
+}
+
+.Port-Proyect-image {
+    margin: 20px 20px 20px;
+}
+
+.Port-Proyect-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.Port-Proyect-Description {
+    display: flex;
+    text-align: center;
+    width: 750px;
+    flex-direction: column;
+}
+
+.Port-P-D-Titles h2 {
+    font-size: 35px;
+}
+
+.Port-P-D-Titles p {
+    font-size: 25px;
+}
+
+.Port-P-D-Tecnologies {
+    padding-top: 0;
+}
+
+.Port-P-D-Tecnologies ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px 0.5em;
+    justify-content: space-around;
+}
+
+.Port-P-D-Tecnologies ul li {
+    color: #01c201;
+    box-shadow: 0px 3px 5px 1px #01c201;
+    border: 3px solid;
+    margin: 12px;
+    padding: 4px;
+}
+
+.Port-P-D-btns {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.Port-P-D-btns a {
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+    padding: 15px;
+    margin: 0px 30px;
+    border-bottom: 3px solid green;
+}
+
+.Port-P-D-btns a:hover {
+    color: lightgreen;
+    border-bottom: 5px solid lightgreen;
+    transition: 0.5s;
+}
