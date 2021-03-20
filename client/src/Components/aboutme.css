@@ -1,0 +1,16 @@
+.AboutMe-Container {
+    margin: 175px 50px 65px;
+}
+
+.AboutMe-Description {
+    display: block;
+}
+
+.AboutMe-Description h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.AboutMe-Description p {
+    font-size: 25px;
+}

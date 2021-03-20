@@ -11,12 +11,13 @@
   z-index: 3;
 }
 .modal > .content {
-  width: 100%;
-  height: fit-content;
-  max-width: 700px;
-  background-color: #163D34;
+  width: 90%;
+  max-width: 500px;
+  color: green;
+  background-color: rgb(17 23 15);
   border-radius: 10px;
-  box-shadow: 1px 2px 13px -4px #5e5e5e;
+  border: 1px solid green;
+  box-shadow: 1px 2px 13px -4px #01c201;
 }
 .content > .header {
   padding: 10px;
@@ -26,11 +27,11 @@
   align-items: center;
 }
 .title {
-   display: flex;
+  display: flex;
   justify-content: center;
   color: white;
-  /*grid-column: 1; */
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid green;
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;

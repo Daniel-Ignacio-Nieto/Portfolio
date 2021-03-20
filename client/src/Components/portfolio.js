@@ -38,8 +38,8 @@ const Portfolio = () => {
                         </ul>
                     </div>
                     <div className="Port-P-D-btns">
-                        <a href="" class="">Sitio Web</a>
-                        <a href="" class="">Repositorio</a>
+                        <a href="https://ecommerce-patagonia.vercel.app/" >Sitio Web</a>
+                        <a href="https://github.com/Daniel-Ignacio-Nieto/ecommerce_patagonia" >Repositorio</a>
                     </div>
                 </div>
             </div>
@@ -49,8 +49,8 @@ const Portfolio = () => {
                 </div>
                 <div className="Port-Proyect-Description">
                     <div className="Port-P-D-Titles">
-                        <h2 class="">Henry Manager</h2>
-                        <p class="">Una Plataforma Web, que facilita la administracion y las estadisticas de desempeño de los estudiantes a lo largo del curso en Henry. </p>
+                        <h2>Henry Manager</h2>
+                        <p>Una Plataforma Web, que facilita la administracion y las estadisticas de desempeño de los estudiantes a lo largo del curso en Henry. </p>
                     </div>
                     <div class="Port-P-D-Tecnologies">
                         <ul>
@@ -66,8 +66,7 @@ const Portfolio = () => {
                         </ul>
                     </div>
                     <div className="Port-P-D-btns">
-                        <a href="" class="">Sitio Web</a>
-                        <a href="" class="">Repositorio</a>
+                        <a href="https://github.com/Daniel-Ignacio-Nieto/Proyecto-Final-ft07-04" >Repositorio</a>
                     </div>
                 </div>
             </div>

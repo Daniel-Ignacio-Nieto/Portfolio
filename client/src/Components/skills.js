@@ -12,6 +12,7 @@ import PSGRE from "../Assets/Iconos/postgresql.png";
 import MONGO from "../Assets/Iconos/MongoDB-hoja.png";
 import PASSP from "../Assets/Iconos/PassportJS.png";
 import MAIL from "../Assets/Iconos/mailgunJS.png";
+import "./skills.css";
 
 
 

@@ -1,0 +1,88 @@
+.Contact-Container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Contact-btn {
+    writing-mode: vertical-rl;
+    padding: 5px;
+    font-size: 20px;
+    color: darkgreen;
+    box-shadow: -1px 3px 10px darkgreen;
+    -webkit-text-orientation: upright;
+    text-orientation: upright;
+    border: 1px solid darkgreen;
+    cursor: pointer;
+    margin: 20px 3px;
+    border-radius: 20px;
+    top: 40%;
+    position: fixed;
+}
+
+.Contact-btn:hover {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    box-shadow: -2px 1px 10px lightgreen;
+}
+
+.Contact-Form {
+    display: grid;
+    width: 350px;
+}
+
+.Contact-Form-Data {
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+}
+
+.Contact-Form-Data input {
+    padding: 10px;
+    margin: 5px -10px;
+    width: 300px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid green;
+    box-shadow: 0px 0px 10px green;
+    color: white;
+}
+
+.Contact-Form-Data input:focus {
+    outline: none;
+    border: 2px solid lightgreen;
+}
+
+.Contact-Form-Data input::-webkit-input-placeholder{
+    color: gray;
+}
+
+#Contact-F-D-LabelMSJ {
+    margin: 0px 0px 6px 10px;
+
+}
+
+#Contact-F-D-MSJ {
+    height: 100px;
+    width: 315px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid green;
+    box-shadow: 0px 0px 10px green;
+    color: white;
+}
+
+#Contact-F-D-MSJ:focus {
+    outline: none;
+    border: 2px solid lightgreen;
+}
+
+
+#Contact-F-D-Btn {
+    background-color: #01c201;
+    box-shadow: 0px 0px 5px black;
+    border: 2px solid greenyellow;
+}
+
+#Contact-F-D-Btn:hover {
+    box-shadow: 0px 2px 15px lightgreen;
+}
