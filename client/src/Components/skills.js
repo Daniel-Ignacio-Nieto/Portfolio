@@ -21,56 +21,56 @@ const Skills = () => {
 
     return (
         <>
-            <div class="">
-                <div class="">
+            <div className="Skills-Container">
+                <div className="Skills-Card">
                     <img src={JS} alt="JavaScript" class="" height="100" width="100" />
-                    <p class="">JavaScript</p>
+                    <p>JavaScript</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={TS} alt="Typescript" class="" height="100" width="100" />
                     <p class="">Typescript</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={HTML} alt="HTML5" class="" height="100" width="100" />
                     <p class="">HTML5</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={CSS} alt="CSS3" class="" height="100" width="100" />
                     <p class="">CSS3</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={R3ACT} alt="React" class="" height="100" width="100" />
                     <p class="">React</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={R3DUX} alt="Redux" class="" height="100" width="100" />
                     <p class="">Redux</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={NOD} alt="NodeJS" class="" height="100" width="100" />
                     <p class="">NodeJS</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={EX} alt="Express" class="" height="100" width="100" />
                     <p class="">Express</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={SQL} alt="Sequelize" class="" height="100" width="100" />
                     <p class="">Sequelize</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={PSGRE} alt="PostgreSQL" class="" height="100" width="100" />
                     <p class="">PostgreSQL</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={MONGO} alt="MongoDB" class="" height="100" width="100" />
                     <p class="">MongoDB</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={PASSP} alt="Passport" class="" height="100" width="100" />
                     <p class="">Passport</p>
                 </div>
-                <div class="">
+                <div className="Skills-Card">
                     <img src={MAIL} alt="Mailgun" class="" height="100" width="100" />
                     <p class="">Mailgun</p>
                 </div>
