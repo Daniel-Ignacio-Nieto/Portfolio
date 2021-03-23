@@ -17,12 +17,10 @@ const NavBar = () => {
                 <img src={Barrita} alt="Menu" className="nav-barrita-img" width="35" height="35" />
             </span>
             <ul className="nav-menu-items" id="otroModo">
-                <li className="item-active"><a href="/">Home</a></li>
-                <li><a href="/AboutMe">Sobre Mi</a></li>
-                <li><a href="/Skills">Habilidades</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Footer">Contacto</a></li>
-                <li><a href="#">NOSE</a></li>
+                <li><a href="/" onClick={() => showmenu()}>Portafolio</a></li>
+                <li><a href="/AboutMe" onClick={() => showmenu()}>Sobre Mi</a></li>
+                <li><a href="/Skills" onClick={() => showmenu()}>Habilidades</a></li>
+                <li><a href="#Footer" onClick={() => showmenu()}>Contacto</a></li>
             </ul>
         </nav>
     );

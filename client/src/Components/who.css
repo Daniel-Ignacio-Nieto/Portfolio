@@ -1,16 +1,16 @@
 .who-container {
     display: flex;
-    margin-top: 135px;
+    flex-direction: row-reverse;
+    margin: 135px 135px;
     padding: 70px 50px 150px 30px;
 }
 
 .who-intro {
-    text-align: center;
+    text-align: left;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 3%;
 }
 
 .who-intro h1 {
@@ -32,6 +32,57 @@
 .who-img img {
     width: 330px;
     height: 400px;
-    box-shadow: 0px 0px 10px lightgreen;
+    box-shadow: 0px 0px 30px black;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1050px) {
+
+    .who-container {
+        display: flow-root;
+        padding: 0px 0px 150px 0px;
+    }
+
+    .who-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .who-img img {
+        width: 290px;
+        height: 350px;
+    }
+
+    .who-intro {
+        text-align: center;
+    }
+
+    .who-intro h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .who-img img {
+        width: 250px;
+        height: 290px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .who-container {
+        margin: 135px 45px;
+    }
+
+    .who-img img {
+        width: 180px;
+        height: 210px;
+    }
+
+    .who-intro {
+        text-align: left;
+    }
+}
+
