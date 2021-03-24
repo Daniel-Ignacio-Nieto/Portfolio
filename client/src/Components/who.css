@@ -40,7 +40,7 @@
 
     .who-container {
         display: flow-root;
-        padding: 0px 0px 150px 0px;
+        padding: 0px 0px 100px 0px;
     }
 
     .who-img {
@@ -83,6 +83,10 @@
 
     .who-intro {
         text-align: left;
+    }
+
+    .who-intro h1 {
+        font-size: 25px;
     }
 }
 

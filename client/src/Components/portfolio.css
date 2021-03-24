@@ -8,6 +8,7 @@
 .Port-Intro {
     display: block;
     text-align: center;
+    width: 90%;
 }
 
 .Port-Intro h1 {
@@ -20,17 +21,21 @@
 
 .Port-Proyect {
     display: flex;
-    background-color: rgb(0, 35, 0, 1);
-    margin: 75px 60px 100px 60px;
+    background-color: rgb(17 27 17);
+    margin: 75px 140px 100px 140px;
     height: 550px;
+    width: 75%;
     padding: 25px;
     border-radius: 40px;
-    border: 1px solid lightgreen;
-    box-shadow: 0px 0px 17px lightgreen;
+    border: 2px solid green;
+    box-shadow: 0px 0px 20px #018901;
 }
 
 .Port-Proyect-image {
     margin: 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Port-Proyect-image img {
@@ -43,10 +48,11 @@
     text-align: center;
     width: 750px;
     flex-direction: column;
+    align-self: center;
 }
 
 .Port-P-D-Titles h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .Port-P-D-Titles p {
@@ -68,9 +74,9 @@
 
 .Port-P-D-Tecnologies ul li {
     color: #01c201;
-    box-shadow: 0px 3px 5px 1px #01c201;
+    box-shadow: 0px 3px 5px 1px #017901;
     border: 3px solid;
-    margin: 12px;
+    margin: 7px;
     padding: 4px;
 }
 
@@ -84,8 +90,8 @@
     text-decoration: none;
     color: green;
     font-size: 25px;
-    padding: 15px;
-    margin: 0px 30px;
+    padding: 7px;
+    margin: 10px 10px;
     border-bottom: 3px solid green;
 }
 
@@ -93,4 +99,91 @@
     color: lightgreen;
     border-bottom: 5px solid lightgreen;
     transition: 0.5s;
+}
+
+@media screen and (max-width: 1300px) {
+    .Port-P-D-Titles h2 {
+        font-size: 27px;
+    }
+    .Port-P-D-Titles p {
+        font-size: 20px;
+    }
+    .Port-P-D-btns {
+        margin-top: 0px;
+    }
+    .Port-P-D-btns a {
+        margin: 10px 10px;
+    }
+    .Port-Proyect-image img {
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .Port-Intro h1 {
+        font-size: 45px;
+    }
+    .Port-Proyect {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+
+    .Port-Proyect-image {
+        width: 90%;
+    }
+
+    .Port-Proyect-Description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Port-Intro h1 {
+        font-size: 40px;
+    }
+    .Port-Intro p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .Port-Intro h1 {
+        font-size: 30px;
+    }
+
+    .Port-Intro p {
+        font-size: 18px;
+    }
+    
+    .Port-Proyect {
+        margin: 30px 140px 100px 140px;
+    }
+
+    .Port-Proyect-image {
+        width: 100%;
+    }
+
+    .Port-P-D-Titles h2 {
+        font-size: 23px;
+    }
+
+    .Port-P-D-Titles p {
+        font-size: 17px;
+    }
+
+    .Port-P-D-Tecnologies ul {
+        margin: 5px;
+    }
+
+    .Port-P-D-Tecnologies ul li {
+        margin: 5px;
+        padding: 2px;
+    }
+
+    .Port-P-D-btns a {
+        font-size: 20px;
+        margin: 0px 10px;
+    }
 }

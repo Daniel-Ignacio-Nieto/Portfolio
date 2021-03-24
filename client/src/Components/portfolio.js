@@ -38,8 +38,8 @@ const Portfolio = () => {
                         </ul>
                     </div>
                     <div className="Port-P-D-btns">
-                        <a href="https://ecommerce-patagonia.vercel.app/" >Sitio Web</a>
-                        <a href="https://github.com/Daniel-Ignacio-Nieto/ecommerce_patagonia" >Repositorio</a>
+                        <a href="https://ecommerce-patagonia.vercel.app/" target="_blank">Sitio Web</a>
+                        <a href="https://github.com/Daniel-Ignacio-Nieto/ecommerce_patagonia" target="_blank">Repositorio</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                         </ul>
                     </div>
                     <div className="Port-P-D-btns">
-                        <a href="https://github.com/Daniel-Ignacio-Nieto/Proyecto-Final-ft07-04" >Repositorio</a>
+                        <a href="https://github.com/Daniel-Ignacio-Nieto/Proyecto-Final-ft07-04" target="_blank" >Repositorio</a>
                     </div>
                 </div>
             </div>

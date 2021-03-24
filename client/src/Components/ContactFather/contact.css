@@ -7,22 +7,22 @@
     writing-mode: vertical-rl;
     padding: 5px;
     font-size: 20px;
-    color: darkgreen;
-    box-shadow: -1px 3px 10px darkgreen;
+    color: green;
+    box-shadow: -1px 3px 10px green;
     -webkit-text-orientation: upright;
     text-orientation: upright;
     border: 1px solid darkgreen;
     cursor: pointer;
     margin: 20px 3px;
     border-radius: 20px;
-    top: 40%;
+    top: 35%;
     position: fixed;
 }
 
 .Contact-btn:hover {
-    color: lightgreen;
-    border: 1px solid lightgreen;
-    box-shadow: -2px 1px 10px lightgreen;
+    color: limegreen;
+    border: 1px solid lime;
+    box-shadow: -2px 1px 10px limegreen;
 }
 
 .Contact-Form {
@@ -78,11 +78,11 @@
 
 
 #Contact-F-D-Btn {
-    background-color: #01c201;
+    background-color: green;
     box-shadow: 0px 0px 5px black;
-    border: 2px solid greenyellow;
 }
 
 #Contact-F-D-Btn:hover {
-    box-shadow: 0px 2px 15px lightgreen;
+    box-shadow: 0px 2px 10px limegreen;
+    border: 2px solid limegreen;
 }

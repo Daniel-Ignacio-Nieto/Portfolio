@@ -14,3 +14,34 @@
 .AboutMe-Description p {
     font-size: 25px;
 }
+
+@media screen and (max-width: 1050px) {
+    .AboutMe-Description p {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .AboutMe-Description h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .AboutMe-Description h1 {
+        font-size: 25px;
+    }
+
+    .AboutMe-Description p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .AboutMe-Container {
+        margin: 120px 50px 65px;
+    }
+}
+
+
