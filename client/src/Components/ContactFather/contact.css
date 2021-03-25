@@ -86,3 +86,42 @@
     box-shadow: 0px 2px 10px limegreen;
     border: 2px solid limegreen;
 }
+
+@media screen and (max-width: 700px) {
+    .Contact-Container {
+        justify-content: center;
+    }
+
+    .Contact-btn {
+        writing-mode: horizontal-tb;
+        padding: 15px;
+        font-size: 25px;
+        text-align: center;
+        width: 40%;
+        position: inherit;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .Contact-Form {
+        width: 245px;
+    }
+
+    .Contact-Form-Data {
+        padding: 10px 0px;
+    }
+    
+    .Contact-Form-Data input {
+        width: 220px;
+    }
+
+    #Contact-F-D-MSJ {
+        width: 230px;
+    }
+
+    .Contact-btn {
+        padding: 10px;
+    }
+
+}

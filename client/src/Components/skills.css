@@ -1,5 +1,6 @@
 .Skills-Container {
     display: flex;
+    justify-content: center;
     margin: 160px 50px;
     flex-wrap: wrap;
 }
@@ -30,4 +31,51 @@
     font-size: 25px;
     text-align: center;
     color: rgb(107 248 118);
+}
+
+
+@media screen and (max-width: 1050px) {
+    .Skills-Card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Skills-Card p {
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .Skills-Container {
+        margin: 115px 50px;
+    }
+
+    .Skills-Card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Skills-Card p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Skills-Container {
+        margin: 115px 40px;
+    }
+
+    .Skills-Card {
+        margin: 15px;
+    }
+
+    .Skills-Card img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .Skills-Card p {
+        font-size: 14px;
+    }
 }

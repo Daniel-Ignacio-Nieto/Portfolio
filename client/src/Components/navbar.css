@@ -9,6 +9,7 @@
     box-shadow: 0px 0px 10px rgb(1, 194, 1);
     top: 0;
     position: fixed;
+    z-index: 9;
 }
 
 .nav-menu-items {

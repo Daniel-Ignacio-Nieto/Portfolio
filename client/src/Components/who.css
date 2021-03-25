@@ -1,7 +1,7 @@
 .who-container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 135px 135px;
+    margin: 135px 135px 0px;
     padding: 70px 50px 150px 30px;
 }
 

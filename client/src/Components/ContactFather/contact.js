@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "../Modal/Modal.js";
 import emailJS from "emailjs-com";
+import Swal from 'sweetalert2';
 import "./contact.css";
 
 const { REACT_APP_EMAIL_SERVICE_ID,
@@ -25,9 +26,19 @@ const Contact = () => {
 
         emailJS.send(`${REACT_APP_EMAIL_SERVICE_ID}`, `${REACT_APP_EMAIL_TEMPLATE_ID}`, data, `${REACT_APP_EMAIL_USER_ID}`)
             .then((result) => {
-                alert("se envio con exito", result.text);
+                Swal.fire({
+                    icon: 'success',
+                    title: `Email enviado con exito ${result.text}`,
+                    showConfirmButton: false,
+                    timer: 3000
+                })
             }, (error) => {
-                alert("Error al enviar el mensaje.", error.message);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: `Ha ocurrido un error, por favor intente de nuevo, caso contrario comunicarse por otros medios por favor
+                     ${error.message}`,
+                })
             });
         setClose(!close)
     };
