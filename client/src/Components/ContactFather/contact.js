@@ -71,7 +71,8 @@ const Contact = () => {
                         <label id="Contact-F-D-LabelMSJ">
                             Mensaje
                         </label>
-                        <textarea type="text" id="Contact-F-D-MSJ" name="Message" onChange={(e) => handleOnChange(e)} placeholder="Este mensaje se envia directo a mi casilla de correo electronico, siente libre de escribirme, me comunicare contigo cuanto antes" required title="Debe ingresar un Mensaje" />
+                        <textarea type="text" id="Contact-F-D-MSJ" name="Message" onChange={(e) => handleOnChange(e)}
+                            placeholder="Este mensaje se envia directo a mi casilla de correo electronico, sientete libre de escribirme, me comunicare contigo cuanto antes" required title="Debe ingresar un Mensaje" />
                     </div>
                     <div className="Contact-Form-Data">
                         <input id="Contact-F-D-Btn" type="submit" value="Enviar" />

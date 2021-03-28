@@ -10,6 +10,7 @@ const NavBar = () => {
         document.getElementById("otroModo").classList.toggle("show");
     }
 
+    console.log(window.location.host, "soy el host")
 
     return (
         <nav className="nav-menu">
@@ -17,7 +18,8 @@ const NavBar = () => {
                 <img src={Barrita} alt="Menu" className="nav-barrita-img" width="35" height="35" />
             </span>
             <ul className="nav-menu-items" id="otroModo">
-                <li><a href="/" onClick={() => showmenu()}>Portafolio</a></li>
+                <li><a href="/#Who" onClick={() => showmenu()}>Inicio</a></li>
+                <li><a href="/#Portfolio" onClick={() => showmenu()}>Portafolio</a></li>
                 <li><a href="/AboutMe" onClick={() => showmenu()}>Sobre Mi</a></li>
                 <li><a href="/Skills" onClick={() => showmenu()}>Habilidades</a></li>
                 <li><a href="#Footer" onClick={() => showmenu()}>Contacto</a></li>

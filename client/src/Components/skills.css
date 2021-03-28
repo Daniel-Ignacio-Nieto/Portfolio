@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 550px) {
     .Skills-Container {
-        margin: 115px 40px;
+        margin: 115px 10px;
     }
 
     .Skills-Card {
@@ -77,5 +77,11 @@
 
     .Skills-Card p {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Skills-Container {
+        margin: 115px 10px;
     }
 }

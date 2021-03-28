@@ -1,5 +1,5 @@
 import React from "react";
-import EP from "../Assets/Imagenes/EcommersePortada.jpg";
+import EP from "../Assets/Ecommerce-Portfolio.mp4";
 import HM from "../Assets/Imagenes/HenryAppPortada.jpg";
 import Fade from "react-reveal/Fade";
 import "./portfolio.css";
@@ -17,8 +17,11 @@ const Portfolio = () => {
                     <p>Aquí te muestro algunos de los proyectos en los cuales trabajé</p>
                 </div>
                 <div className="Port-Proyect">
-                    <div className="Port-Proyect-image">
-                        <img src={EP} alt="Foto del Proyecto" />
+                    <div className="Port-Proyect-video">
+                        <video controls>
+                            <source src={EP} type="video/mp4" />
+                            Video del Proyecto
+                        </video>
                     </div>
                     <div className="Port-Proyect-Description">
                         <div className="Port-P-D-Titles">
@@ -47,8 +50,11 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="Port-Proyect">
-                    <div className="Port-Proyect-image">
-                        <img src={HM} alt="Foto del Proyecto" />
+                    <div className="Port-Proyect-video">
+                        <video controls>
+                            <source src={EP} type="video/mp4" />
+                            Video del Proyecto
+                        </video>
                     </div>
                     <div className="Port-Proyect-Description">
                         <div className="Port-P-D-Titles">
