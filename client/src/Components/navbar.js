@@ -19,8 +19,8 @@ const NavBar = () => {
             </span>
             <ul className="nav-menu-items" id="otroModo">
                 <li><a href="/#Who" onClick={() => showmenu()}>Inicio</a></li>
-                <li><a href="/#Portfolio" onClick={() => showmenu()}>Portafolio</a></li>
-                <li><a href="/AboutMe" onClick={() => showmenu()}>Sobre Mi</a></li>
+                <li><a href="/#Portfolio" onClick={() => showmenu()}>Portfolio</a></li>
+                <li><a href="/AboutMe" onClick={() => showmenu()}>Sobre Mí</a></li>
                 <li><a href="/Skills" onClick={() => showmenu()}>Habilidades</a></li>
                 <li><a href="#Footer" onClick={() => showmenu()}>Contacto</a></li>
             </ul>

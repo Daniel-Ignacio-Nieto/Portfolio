@@ -1,6 +1,6 @@
 import React from "react";
 import EP from "../Assets/Ecommerce-Portfolio.mp4";
-import HM from "../Assets/Imagenes/HenryAppPortada.jpg";
+import HM from "../Assets/HenryManager-Portfolio.mp4";
 import Fade from "react-reveal/Fade";
 import "./portfolio.css";
 
@@ -18,14 +18,14 @@ const Portfolio = () => {
                 </div>
                 <div className="Port-Proyect">
                     <div className="Port-Proyect-video">
-                        <video controls>
+                        <video controls autoPlay muted>
                             <source src={EP} type="video/mp4" />
                             Video del Proyecto
                         </video>
                     </div>
                     <div className="Port-Proyect-Description">
                         <div className="Port-P-D-Titles">
-                            <h2>Patagonia Ecommerse</h2>
+                            <h2>Patagonia E-commerse</h2>
                             <p>E-commerce de venta de cervezas Patagonia, en el cual trabajamos 6 personas en conjunto aplicando metodoligas Agiles SCRUM</p>
                         </div>
                         <div className="Port-P-D-Tecnologies">
@@ -51,15 +51,15 @@ const Portfolio = () => {
                 </div>
                 <div className="Port-Proyect">
                     <div className="Port-Proyect-video">
-                        <video controls>
-                            <source src={EP} type="video/mp4" />
+                        <video controls autoPlay muted>
+                            <source src={HM} type="video/mp4" />
                             Video del Proyecto
                         </video>
                     </div>
                     <div className="Port-Proyect-Description">
                         <div className="Port-P-D-Titles">
-                            <h2>Henry Manager</h2>
-                            <p>Una Plataforma Web, que facilita la administracion y las estadisticas de desempeño de los estudiantes a lo largo del curso en Henry. </p>
+                            <h2>Henry Mánager</h2>
+                            <p>Una Plataforma Web, que facilita la administración y las estadísticas de desempeño de los estudiantes a lo largo del curso en Henry. </p>
                         </div>
                         <div class="Port-P-D-Tecnologies">
                             <ul>

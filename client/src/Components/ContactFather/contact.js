@@ -8,7 +8,6 @@ const { REACT_APP_EMAIL_SERVICE_ID,
     REACT_APP_EMAIL_TEMPLATE_ID,
     REACT_APP_EMAIL_USER_ID } = process.env;
 
-
 const Contact = () => {
 
     const [close, setClose] = useState(false);
@@ -36,7 +35,7 @@ const Contact = () => {
                 Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: `Ha ocurrido un error, por favor intente de nuevo, caso contrario comunicarse por otros medios por favor
+                    text: `Há ocurrido un error, por favor intente de nuevo, caso contrario comunicarse por otros medios por favor
                      ${error.message}`,
                 })
             });
@@ -49,22 +48,22 @@ const Contact = () => {
             <Modal title="Contacto" show={close} onClose={() => setClose((val) => !val)}>
                 <form onSubmit={sendEmail} className="Contact-Form">
                     <div className="Contact-Form-Data">
-                        <label class="">
+                        <label>
                             Asunto
                         </label>
-                        <input type="text" class="" name="Title" onChange={(e) => handleOnChange(e)} placeholder="Ej: Oferta Laboral" required title="Debe ingresar un Asunto/Titulo" />
+                        <input type="text" name="Title" onChange={(e) => handleOnChange(e)} placeholder="Ej: Oferta Laboral" required title="Debe ingresar un Asunto/Título" />
                     </div>
                     <div className="Contact-Form-Data">
-                        <label class="">
+                        <label>
                             Nombre
                         </label>
-                        <input type="text" class="" name="Name" onChange={(e) => handleOnChange(e)} placeholder="Ej: Ignacio Nieto" required title="Debe ingresar un nombre" />
+                        <input type="text" name="Name" onChange={(e) => handleOnChange(e)} placeholder="Ej: Ignacio Nieto" required title="Debe ingresar un nombre" />
                     </div>
                     <div className="Contact-Form-Data">
-                        <label class="">
+                        <label>
                             Email
                         </label>
-                        <input type="email" class="" name="Email" onChange={(e) => handleOnChange(e)}
+                        <input type="email" name="Email" onChange={(e) => handleOnChange(e)}
                             placeholder="Ej: tuCorreo@gmail.com" title="Debe ingresar un email" required />
                     </div>
                     <div className="Contact-Form-Data">
@@ -72,7 +71,7 @@ const Contact = () => {
                             Mensaje
                         </label>
                         <textarea type="text" id="Contact-F-D-MSJ" name="Message" onChange={(e) => handleOnChange(e)}
-                            placeholder="Este mensaje se envia directo a mi casilla de correo electronico, sientete libre de escribirme, me comunicare contigo cuanto antes" required title="Debe ingresar un Mensaje" />
+                            placeholder="Este mensaje se envía directo a mí casilla de correo electrónico, siéntete libre de escribirme, me comunicaré contigo cuanto antes" required title="Debe ingresar un Mensaje" />
                     </div>
                     <div className="Contact-Form-Data">
                         <input id="Contact-F-D-Btn" type="submit" value="Enviar" />
