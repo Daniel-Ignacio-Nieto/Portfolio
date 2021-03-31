@@ -6,7 +6,7 @@
 .Contact-btn {
     writing-mode: vertical-rl;
     padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
     color: green;
     box-shadow: -1px 3px 10px green;
     -webkit-text-orientation: upright;
@@ -23,6 +23,7 @@
     color: limegreen;
     border: 1px solid lime;
     box-shadow: -2px 1px 10px limegreen;
+    transition: 0.4s;
 }
 
 .Contact-Form {

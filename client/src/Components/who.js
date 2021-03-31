@@ -17,8 +17,7 @@ const Who = () => {
                 </div>
                 <div className="who-intro">
                     <Zoom>
-                        <h1>¡Hola! Soy Ignacio Nieto, desarrollador Web Full Stack, con ansias seguir creciendo y puliendo mis
-                            conocimientos tanto en Front como en Back-End</h1>
+                        <h1>¡Hola! Soy Ignacio Nieto, desarrollador Web Full Stack con ganas de seguir aprendiendo y desarrollándome       profesionalmente</h1>
                         <a href={CV} download="Cv Ignacio Nieto.pdf">
                             Descargar CV
                         </a>

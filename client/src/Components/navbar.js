@@ -22,7 +22,6 @@ const NavBar = () => {
                 <li><a href="/#Portfolio" onClick={() => showmenu()}>Portfolio</a></li>
                 <li><a href="/AboutMe" onClick={() => showmenu()}>Sobre Mí</a></li>
                 <li><a href="/Skills" onClick={() => showmenu()}>Habilidades</a></li>
-                <li><a href="#Footer" onClick={() => showmenu()}>Contacto</a></li>
             </ul>
         </nav>
     );

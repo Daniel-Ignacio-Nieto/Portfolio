@@ -26,7 +26,7 @@ const Portfolio = () => {
                     <div className="Port-Proyect-Description">
                         <div className="Port-P-D-Titles">
                             <h2>Patagonia E-commerse</h2>
-                            <p>E-commerce de venta de cervezas Patagonia, en el cual trabajamos 6 personas en conjunto aplicando metodoligas Agiles SCRUM</p>
+                            <p>E-commerce de venta de cervezas Patagonia, en el cual trabajamos 6 personas en conjunto aplicando metodologías Agiles SCRUM</p>
                         </div>
                         <div className="Port-P-D-Tecnologies">
                             <ul>
@@ -58,8 +58,8 @@ const Portfolio = () => {
                     </div>
                     <div className="Port-Proyect-Description">
                         <div className="Port-P-D-Titles">
-                            <h2>Henry Mánager</h2>
-                            <p>Una Plataforma Web, que facilita la administración y las estadísticas de desempeño de los estudiantes a lo largo del curso en Henry. </p>
+                            <h2>Henry Manager</h2>
+                            <p>Una Plataforma Web, que facilita la administración y las estadísticas de desempeño estudiantil a lo largo del curso en Henry. </p>
                         </div>
                         <div class="Port-P-D-Tecnologies">
                             <ul>

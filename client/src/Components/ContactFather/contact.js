@@ -44,8 +44,8 @@ const Contact = () => {
 
     return (
         <section id="Contact" className="Contact-Container">
-            <div className="Contact-btn" onClick={() => setClose((val) => !val)}>Hablemos</div>
-            <Modal title="Contacto" show={close} onClose={() => setClose((val) => !val)}>
+            <div className="Contact-btn" onClick={() => setClose((val) => !val)}>CONTACTO</div>
+            <Modal title="Hablemos" show={close} onClose={() => setClose((val) => !val)}>
                 <form onSubmit={sendEmail} className="Contact-Form">
                     <div className="Contact-Form-Data">
                         <label>
@@ -78,7 +78,6 @@ const Contact = () => {
                     </div>
                 </form>
             </Modal>
-
         </section>
     );
 
