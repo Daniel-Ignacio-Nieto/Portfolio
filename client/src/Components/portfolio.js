@@ -141,9 +141,7 @@ const Portfolio = () => {
 							<p>
 								Sistema de Organización Personal en Angular(SOPA), es una Aplicacion Web Progresiva(PWA) utilizada para
 								generar una organización en las tareas personales de cada uno, con fecha, hora y un control sobre éstas
-								si estan completadas o no. Esta Aplicación permite ser instalada como una App Nativa del móvil y asi
-								poder usarla como una aplicación más desde la pantalla principal sin entrar a la página desde el
-								navegador.
+								si estan completadas o no.
 							</p>
 						</div>
 						<div class="Port-P-D-Tecnologies">
